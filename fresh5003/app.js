@@ -48,7 +48,8 @@ function renderGrid(){
     .filter(p=>!q || (p.name||'').toLowerCase().includes(q) || (p.description||'').toLowerCase().includes(q))
     .forEach(p=>{
       const d=document.createElement('article'); d.className='card';
-      const img=catImg ? `<img class="thumb" src="${catImg}" alt="${cat.name}" loading="lazy"/>` : `<div class="thumb ph">🍽️</div>`;
+      const pImg = p.image || catImg;
+    const img=pImg ? `<img class="thumb" src="${pImg}" alt="${p.name}" loading="lazy"/>` : `<div class="thumb ph">🍽️</div>`;
       d.innerHTML=`${img}
         <h4>${p.name}</h4>
         <p class='desc'>${p.description||''}</p>

@@ -1,483 +1,2106 @@
 {
   "restaurant": {
-    "name": "Pizzeria Napoli Centrale",
-    "description": "Pioniera bucătăriei cu specific italianesc din Cluj Napoca, încă din anul 1998. Originalitatea gustului bucătăriei Italiene este succesul nostru, fiecare produs având savoarea autentică a unei plimbări pe străzile din minunatul oraș Napoli.",
-    "address": "Strada Napoli, Cluj-Napoca",
+    "name": "Napoli Centrale",
+    "description": "Pizzeria Spaghetteria Napoli Centrale este pioniera bucatăriei cu specific italianesc din orașul Cluj Napoca, încă din anul 1998. Originalitatea gustului bucătăriei Italiene este succesul nostru, fiecare produs având savoarea autentică a unei plimbări pe străzile din minunatul oraș Napoli.\r\n\r\nPuteți savura o pizza pe minunata noastră terasă, oază de liniște în centrul Clujului, înconjurați de o gradină plină de verdeață.\r\n\r\nConducerea familială conferă restaurantului Napoli Centrale o atmosferă primitoare care te face să te simți ca și acasă. Pastele noastre “fatte in casa” vă vor cuceri din prima îmbucătură, savoarea lor autentică și aspectul lor încântător vă așteaptă proaspete în fiecare zi. Lasagne, Ravioli, Tortelloni, Tagliatelle, Rigatini, Pappardelle, Fagottini … mmmm …. Che buone !!!",
     "phone": "0040264450500",
-    "email": "contact@pizzerianapolicentrale.ro",
-    "website": "https://www.pizzerianapolicentrale.ro",
-    "program": {
-      "luni_vineri": "10:00 - 22:00",
-      "sambata": "11:00 - 23:00",
-      "duminica": "12:00 - 21:00"
-    },
-    "currency": "RON",
-    "delivery": true,
-    "pickup": true,
-    "dine_in": true
+    "currency": "RON"
   },
   "categories": [
     {
-      "id": "pizza",
-      "name": "Pizza",
-      "description": "Pizza autentică napoletană, coaptă în cuptor cu lemne",
+      "id": 24031607,
+      "name": "Antipasti",
+      "description": "",
+      "image": "",
       "products": [
         {
-          "id": "p1",
-          "name": "Margherita",
-          "description": "Sos de roșii, mozzarella fior di latte, busuioc proaspăt, ulei de măsline extravirgin",
-          "price": 28,
-          "gramaj": 380,
-          "image": "margherita.jpg",
-          "popular": true,
-          "allergens": ["gluten", "lactose"]
+          "id": 24031997,
+          "name": "Contadinella",
+          "description": "Starter pentru 1 persoana",
+          "price": 32.0,
+          "gramaj": 190,
+          "image": ""
         },
         {
-          "id": "p2",
-          "name": "Quattro Formaggi",
-          "description": "Mozzarella, gorgonzola, parmezan, provola - amestec de 4 brânzeturi italiene",
-          "price": 35,
-          "gramaj": 420,
-          "image": "quattro_formaggi.jpg",
-          "popular": true,
-          "allergens": ["gluten", "lactose"]
+          "id": 26533883,
+          "name": "Misticanza",
+          "description": "Starter pentru 1 persoana",
+          "price": 32.0,
+          "gramaj": 90,
+          "image": ""
         },
         {
-          "id": "p3",
-          "name": "Diavola",
-          "description": "Sos de roșii, mozzarella, salame piccante, ardei iute, ulei de măsline",
-          "price": 32,
-          "gramaj": 400,
-          "image": "diavola.jpg",
-          "popular": false,
-          "allergens": ["gluten", "lactose"],
-          "spicy": true
-        },
-        {
-          "id": "p4",
-          "name": "Prosciutto e Funghi",
-          "description": "Sos de roșii, mozzarella, prosciutto cotto, ciuperci proaspete, măsline",
-          "price": 34,
-          "gramaj": 410,
-          "image": "prosciutto_funghi.jpg",
-          "popular": false,
-          "allergens": ["gluten", "lactose"]
-        },
-        {
-          "id": "p5",
-          "name": "Quattro Stagioni",
-          "description": "Sos de roșii, mozzarella, ciuperci, prosciutto, anghinare, măsline",
-          "price": 36,
-          "gramaj": 430,
-          "image": "quattro_stagioni.jpg",
-          "popular": true,
-          "allergens": ["gluten", "lactose"]
-        },
-        {
-          "id": "p6",
-          "name": "Capricciosa",
-          "description": "Sos de roșii, mozzarella, prosciutto, ciuperci, anghinare, capere",
-          "price": 35,
-          "gramaj": 420,
-          "image": "capricciosa.jpg",
-          "popular": false,
-          "allergens": ["gluten", "lactose"]
-        },
-        {
-          "id": "p7",
-          "name": "Calzone",
-          "description": "Pizza pliată cu mozzarella, ricotta, prosciutto cotto, ciuperci, ou",
-          "price": 33,
-          "gramaj": 450,
-          "image": "calzone.jpg",
-          "popular": true,
-          "allergens": ["gluten", "lactose", "ou"]
-        },
-        {
-          "id": "p8",
-          "name": "Napoli Centrale Special",
-          "description": "Sos de roșii, mozzarella, prosciutto crudo, rucola, parmezan, roșii cherry",
-          "price": 38,
-          "gramaj": 420,
-          "image": "special.jpg",
-          "popular": true,
-          "allergens": ["gluten", "lactose"]
-        }
-      ]
-    },
-    {
-      "id": "paste",
-      "name": "Paste",
-      "description": "Paste proaspete „fatte in casa" - facute manual în fiecare zi",
-      "products": [
-        {
-          "id": "pa1",
-          "name": "Spaghetti Carbonara",
-          "description": "Spaghetti cu ou, guanciale, parmezan, piper negru - rețeta autentică romană",
-          "price": 32,
-          "gramaj": 350,
-          "image": "carbonara.jpg",
-          "popular": true,
-          "allergens": ["gluten", "ou", "lactose"]
-        },
-        {
-          "id": "pa2",
-          "name": "Tagliatelle al Ragù",
-          "description": "Tagliatelle proaspete cu ragù bolognese pregătit 4 ore",
-          "price": 34,
-          "gramaj": 380,
-          "image": "tagliatelle_ragu.jpg",
-          "popular": true,
-          "allergens": ["gluten", "lactose"]
-        },
-        {
-          "id": "pa3",
-          "name": "Penne Arrabbiata",
-          "description": "Penne cu sos de roșii picant, usturoi, ardei iute, pătrunjel",
-          "price": 28,
-          "gramaj": 340,
-          "image": "arrabbiata.jpg",
-          "popular": false,
-          "allergens": ["gluten"],
-          "spicy": true
-        },
-        {
-          "id": "pa4",
-          "name": "Fettuccine Alfredo",
-          "description": "Fettuccine cu sos cremos de unt și parmezan",
-          "price": 30,
-          "gramaj": 360,
-          "image": "alfredo.jpg",
-          "popular": false,
-          "allergens": ["gluten", "lactose"]
-        },
-        {
-          "id": "pa5",
-          "name": "Linguine alle Vongole",
-          "description": "Linguine cu scoici proaspete, usturoi, ulei de măsline, vin alb, pătrunjel",
-          "price": 42,
-          "gramaj": 380,
-          "image": "vongole.jpg",
-          "popular": true,
-          "allergens": ["gluten", "moluste"]
-        },
-        {
-          "id": "pa6",
-          "name": "Pappardelle al Cinghiale",
-          "description": "Pappardelle late cu ragù de mistreț și vin roșu",
-          "price": 38,
-          "gramaj": 380,
-          "image": "cinghiale.jpg",
-          "popular": false,
-          "allergens": ["gluten"]
-        },
-        {
-          "id": "pa7",
-          "name": "Ravioli Ricotta e Spinaci",
-          "description": "Ravioli umpluți cu ricotta și spanac, serviți cu sos de unt și salvie",
-          "price": 36,
-          "gramaj": 320,
-          "image": "ravioli.jpg",
-          "popular": true,
-          "allergens": ["gluten", "lactose"]
-        },
-        {
-          "id": "pa8",
-          "name": "Gnocchi alla Sorrentina",
-          "description": "Gnocchi de cartofi cu sos de roșii, mozzarella și busuioc, gratinați la cuptor",
-          "price": 30,
-          "gramaj": 340,
-          "image": "gnocchi.jpg",
-          "popular": false,
-          "allergens": ["gluten", "lactose"]
-        }
-      ]
-    },
-    {
-      "id": "paste_umplute",
-      "name": "Paste Umplute",
-      "description": "Paste umplute făcute în casă - Lasagne, Ravioli, Tortelloni, Tagliatelle",
-      "products": [
-        {
-          "id": "pu1",
-          "name": "Lasagne al Forno",
-          "description": "Lasagne cu ragù bolognese, béchamel și parmezan, gratinate la cuptor",
-          "price": 36,
-          "gramaj": 400,
-          "image": "lasagne.jpg",
-          "popular": true,
-          "allergens": ["gluten", "lactose"]
-        },
-        {
-          "id": "pu2",
-          "name": "Tortelloni Burro e Salvia",
-          "description": "Tortelloni umpluți cu ricotta și spanac în unt cu salvie",
-          "price": 34,
-          "gramaj": 320,
-          "image": "tortelloni.jpg",
-          "popular": true,
-          "allergens": ["gluten", "lactose"]
-        },
-        {
-          "id": "pu3",
-          "name": "Cannelloni Ricotta e Spinaci",
-          "description": "Cannelloni cu ricotta, spanac și sos de roșii, gratinați cu mozzarella",
-          "price": 32,
-          "gramaj": 350,
-          "image": "cannelloni.jpg",
-          "popular": false,
-          "allergens": ["gluten", "lactose"]
-        },
-        {
-          "id": "pu4",
-          "name": "Fagottini ai Funghi",
-          "description": "Fagottini cu ciuperci sălbatice în sos de smântână și trufe",
-          "price": 38,
-          "gramaj": 310,
-          "image": "fagottini.jpg",
-          "popular": false,
-          "allergens": ["gluten", "lactose"]
-        }
-      ]
-    },
-    {
-      "id": "specialitati",
-      "name": "Specialitățile Casei",
-      "description": "Preparate unice create de bucătarii noștri italieni",
-      "products": [
-        {
-          "id": "sc1",
-          "name": "Saltimbocca alla Romana",
-          "description": "Escalope de vită cu prosciutto și salvie, în vin alb, servit cu legume",
-          "price": 48,
-          "gramaj": 320,
-          "image": "saltimbocca.jpg",
-          "popular": true,
-          "allergens": ["lactose"]
-        },
-        {
-          "id": "sc2",
-          "name": "Osso Buco alla Milanese",
-          "description": "Rasol de vițel gătit lent în vin alb cu legume, gremolata",
-          "price": 52,
-          "gramaj": 450,
-          "image": "ossobuco.jpg",
-          "popular": false,
-          "allergens": []
-        },
-        {
-          "id": "sc3",
-          "name": "Melanzane alla Parmigiana",
-          "description": "Vinete gratinate cu sos de roșii, mozzarella și parmezan",
-          "price": 32,
-          "gramaj": 350,
-          "image": "melanzane.jpg",
-          "popular": true,
-          "allergens": ["lactose"]
-        },
-        {
-          "id": "sc4",
-          "name": "Pollo alla Cacciatora",
-          "description": "Pui vânătoresc cu roșii, măsline, ciuperci și ierburi aromatice",
-          "price": 38,
-          "gramaj": 380,
-          "image": "cacciatora.jpg",
-          "popular": false,
-          "allergens": []
-        }
-      ]
-    },
-    {
-      "id": "salate",
-      "name": "Salate",
-      "description": "Salate proaspete cu legume de sezon",
-      "products": [
-        {
-          "id": "s1",
-          "name": "Insalata Caprese",
-          "description": "Roșii proaspete, mozzarella fior di latte, busuioc, ulei de măsline",
-          "price": 28,
-          "gramaj": 280,
-          "image": "caprese.jpg",
-          "popular": true,
-          "allergens": ["lactose"]
-        },
-        {
-          "id": "s2",
-          "name": "Insalata Mista",
-          "description": "Mix de salate, roșii cherry, castraveți, măsline, ceapă roșie",
-          "price": 22,
-          "gramaj": 250,
-          "image": "mista.jpg",
-          "popular": false,
-          "allergens": []
-        },
-        {
-          "id": "s3",
-          "name": "Insalata di Rucola e Parmigiano",
-          "description": "Rucola proaspătă cu parmezan, roșii uscate, pinți, ulei de măsline",
-          "price": 26,
-          "gramaj": 220,
-          "image": "rucola.jpg",
-          "popular": true,
-          "allergens": ["lactose", "nuci"]
-        },
-        {
-          "id": "s4",
-          "name": "Insalata Cesare",
-          "description": "Salată Caesar cu pui la grătar, crutoane, parmezan, sos Caesar",
-          "price": 32,
-          "gramaj": 320,
-          "image": "cesare.jpg",
-          "popular": false,
-          "allergens": ["gluten", "lactose", "ou", "pesti"]
-        }
-      ]
-    },
-    {
-      "id": "deserturi",
-      "name": "Deserturi",
-      "description": "Deserturi italiene autentice",
-      "products": [
-        {
-          "id": "d1",
-          "name": "Tiramisù",
-          "description": "Clasic tiramisù cu mascarpone, cafea și cacao",
-          "price": 22,
-          "gramaj": 150,
-          "image": "tiramisu.jpg",
-          "popular": true,
-          "allergens": ["gluten", "lactose", "ou"]
-        },
-        {
-          "id": "d2",
-          "name": "Panna Cotta",
-          "description": "Panna cotta cu sos de fructe de pădure",
-          "price": 20,
+          "id": 24031905,
+          "name": "Tiella Pecr e Scarola",
+          "description": "Starter pentru 1 persoana",
+          "price": 32.0,
           "gramaj": 140,
-          "image": "pannacotta.jpg",
-          "popular": true,
-          "allergens": ["lactose"]
+          "image": ""
         },
         {
-          "id": "d3",
-          "name": "Cannoli Siciliani",
-          "description": "Cannoli crocant umplut cu ricotta dulce și ciocolată",
-          "price": 18,
-          "gramaj": 120,
-          "image": "cannoli.jpg",
-          "popular": false,
-          "allergens": ["gluten", "lactose"]
+          "id": 24031911,
+          "name": "Burrata pomodori e rucola",
+          "description": "Starter pentru 2 persoane",
+          "price": 68.0,
+          "gramaj": 350,
+          "image": ""
         },
         {
-          "id": "d4",
-          "name": "Torta della Nonna",
-          "description": "Tort al bunicii cu cremă de vanilie și pinți",
-          "price": 24,
+          "id": 24031908,
+          "name": "Antipasto della Casa",
+          "description": "Mix de legume si mezeluri italiene pentru 4 persoane",
+          "price": 95.0,
+          "gramaj": 580,
+          "image": ""
+        },
+        {
+          "id": 24031914,
+          "name": "Carpaccio di Vitello",
+          "description": "",
+          "price": 55.0,
+          "gramaj": 180,
+          "image": ""
+        },
+        {
+          "id": 24032000,
+          "name": "Scarpetta Bolognese",
+          "description": "Starter pentru 1 persoana",
+          "price": 32.0,
           "gramaj": 160,
-          "image": "torta.jpg",
-          "popular": false,
-          "allergens": ["gluten", "lactose", "ou", "nuci"]
+          "image": ""
         },
         {
-          "id": "d5",
-          "name": "Gelato Artigianale",
-          "description": "Înghețată artizanală - ciocolată, vanilie, fistic, stracciatella",
-          "price": 16,
-          "gramaj": 100,
-          "image": "gelato.jpg",
-          "popular": true,
-          "allergens": ["lactose"],
-          "options": ["Ciocolată", "Vanilie", "Fistic", "Stracciatella", "Lămâie"]
+          "id": 24031726,
+          "name": "Scarpetta Pugliese",
+          "description": "Starter pentru 1 persoana",
+          "price": 32.0,
+          "gramaj": 140,
+          "image": ""
         }
       ]
     },
     {
-      "id": "bauturi",
-      "name": "Băuturi",
-      "description": "Băuturi răcoritoare, vinuri și cafea",
+      "id": 24095762,
+      "name": "Pizze del Maestro",
+      "description": "",
+      "image": "",
       "products": [
         {
-          "id": "b1",
-          "name": "Apă Plată/Minerală",
-          "description": "Apă plată sau minerală 0.5L",
-          "price": 8,
+          "id": 23901132,
+          "name": "Pizza Insalatosa",
+          "description": "Ingrediente adăugate la ieșire din cuptor",
+          "price": 56.0,
+          "gramaj": 520,
+          "image": ""
+        },
+        {
+          "id": 23901136,
+          "name": "Pizza Reginella",
+          "description": "Ingrediente adăugate la ieșire din cuptor",
+          "price": 53.0,
           "gramaj": 500,
-          "image": "apa.jpg",
-          "popular": false,
-          "allergens": [],
-          "options": ["Plată", "Minerală"]
+          "image": ""
         },
         {
-          "id": "b2",
-          "name": "Coca-Cola / Fanta / Sprite",
-          "description": "Băuturi răcoritoare 0.33L",
-          "price": 12,
-          "gramaj": 330,
-          "image": "cola.jpg",
-          "popular": false,
-          "allergens": []
+          "id": 23901138,
+          "name": "Pizza Battilocchio",
+          "description": "Impaturata in jumate",
+          "price": 54.0,
+          "gramaj": 480,
+          "image": ""
         },
         {
-          "id": "b3",
-          "name": "Limonată Casă",
-          "description": "Limonată proaspătă făcută în casă cu mentă",
-          "price": 16,
+          "id": 23901096,
+          "name": "Pizza Scugnizzo",
+          "description": "",
+          "price": 54.0,
+          "gramaj": 505,
+          "image": ""
+        },
+        {
+          "id": 23973490,
+          "name": "Pizza Mortadella e Pistacchio",
+          "description": "",
+          "price": 57.0,
+          "gramaj": 540,
+          "image": ""
+        },
+        {
+          "id": 23981581,
+          "name": "Pizza Genuvese",
+          "description": "",
+          "price": 54.0,
+          "gramaj": 490,
+          "image": ""
+        },
+        {
+          "id": 23981658,
+          "name": "Pizza Monella",
+          "description": "",
+          "price": 56.0,
+          "gramaj": 515,
+          "image": ""
+        },
+        {
+          "id": 23981758,
+          "name": "Pizza O&apos; Guappo",
+          "description": "Marginile sunt răsucite și umplute cu mozzarella",
+          "price": 57.0,
+          "gramaj": 480,
+          "image": ""
+        },
+        {
+          "id": 25467922,
+          "name": "Pizza Abbuttunata",
+          "description": "marginile sunt răsucite și umplute cu mozzarella",
+          "price": 57.0,
+          "gramaj": 480,
+          "image": ""
+        },
+        {
+          "id": 23981858,
+          "name": "Pizza Maruzzella",
+          "description": "Pizza inchisa prajita in ulei",
+          "price": 60.0,
+          "gramaj": 590,
+          "image": ""
+        },
+        {
+          "id": 23981932,
+          "name": "Pizza Salsiccia e Funghi",
+          "description": "",
+          "price": 57.0,
+          "gramaj": 480,
+          "image": ""
+        },
+        {
+          "id": 25737364,
+          "name": "Pizza Salsiccia e Friarielli",
+          "description": "",
+          "price": 57.0,
+          "gramaj": 530,
+          "image": ""
+        },
+        {
+          "id": 23982997,
+          "name": "Pizza Bufalina",
+          "description": "",
+          "price": 53.0,
+          "gramaj": 460,
+          "image": ""
+        },
+        {
+          "id": 23983038,
+          "name": "Pizza Bella Mbriana",
+          "description": "",
+          "price": 53.0,
+          "gramaj": 450,
+          "image": ""
+        },
+        {
+          "id": 23983293,
+          "name": "Pizza Scarola e Provola",
+          "description": "Pizza inchisa",
+          "price": 54.0,
+          "gramaj": 520,
+          "image": ""
+        },
+        {
+          "id": 23983129,
+          "name": "Pizza Pugliese",
+          "description": "",
+          "price": 60.0,
+          "gramaj": 560,
+          "image": ""
+        },
+        {
+          "id": 23901142,
+          "name": "Pizza Ortolana",
+          "description": "",
+          "price": 53.0,
+          "gramaj": 490,
+          "image": ""
+        },
+        {
+          "id": 23983934,
+          "name": "Pizza Calabrese",
+          "description": "",
+          "price": 55.0,
+          "gramaj": 600,
+          "image": ""
+        },
+        {
+          "id": 23984061,
+          "name": "Pizza Padana",
+          "description": "",
+          "price": 58.0,
+          "gramaj": 590,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 23891330,
+      "name": "Pizza",
+      "description": "",
+      "image": "",
+      "products": [
+        {
+          "id": 23968986,
+          "name": "Pizza Margherita Fior di Latte",
+          "description": "",
+          "price": 44.0,
+          "gramaj": 520,
+          "image": ""
+        },
+        {
+          "id": 23901088,
+          "name": "Pizza Bianca",
+          "description": "",
+          "price": 30.0,
+          "gramaj": 295,
+          "image": ""
+        },
+        {
+          "id": 23901090,
+          "name": "Pizza Marinara",
+          "description": "",
+          "price": 36.0,
+          "gramaj": 350,
+          "image": ""
+        },
+        {
+          "id": 23965258,
+          "name": "Pizza Parmigiana",
+          "description": "",
+          "price": 48.0,
+          "gramaj": 530,
+          "image": ""
+        },
+        {
+          "id": 23901094,
+          "name": "Pizza Quattro Formaggi",
+          "description": "",
+          "price": 49.0,
+          "gramaj": 510,
+          "image": ""
+        },
+        {
+          "id": 23901100,
+          "name": "Pizza Napoletana",
+          "description": "",
+          "price": 45.0,
+          "gramaj": 540,
+          "image": ""
+        },
+        {
+          "id": 23901098,
+          "name": "Pizza Romana",
+          "description": "",
+          "price": 46.0,
+          "gramaj": 450,
+          "image": ""
+        },
+        {
+          "id": 23901102,
+          "name": "Pizza Tonno e Cipolla",
+          "description": "",
+          "price": 47.0,
+          "gramaj": 500,
+          "image": ""
+        },
+        {
+          "id": 23901106,
+          "name": "Pizza Carrettiera",
+          "description": "",
+          "price": 48.0,
           "gramaj": 400,
-          "image": "limonada.jpg",
-          "popular": true,
-          "allergens": []
+          "image": ""
         },
         {
-          "id": "b4",
-          "name": "Espresso",
-          "description": "Cafea espresso italiană",
-          "price": 10,
-          "gramaj": 30,
-          "image": "espresso.jpg",
-          "popular": true,
-          "allergens": []
+          "id": 23901140,
+          "name": "Pizza Salamino",
+          "description": "",
+          "price": 46.0,
+          "gramaj": 540,
+          "image": ""
         },
         {
-          "id": "b5",
-          "name": "Cappuccino",
-          "description": "Cappuccino cu spumă de lapte",
-          "price": 14,
+          "id": 23901104,
+          "name": "Pizza Diavola",
+          "description": "",
+          "price": 47.0,
+          "gramaj": 530,
+          "image": ""
+        },
+        {
+          "id": 23901120,
+          "name": "Pizza Prosciutto Cotto",
+          "description": "",
+          "price": 46.0,
+          "gramaj": 550,
+          "image": ""
+        },
+        {
+          "id": 23901110,
+          "name": "Pizza Prosciutto e Funghi",
+          "description": "",
+          "price": 47.0,
+          "gramaj": 400,
+          "image": ""
+        },
+        {
+          "id": 23901108,
+          "name": "Pizza Calzone",
+          "description": "Pizza Închisă",
+          "price": 48.0,
+          "gramaj": 530,
+          "image": ""
+        },
+        {
+          "id": 23901112,
+          "name": "Pizza Fagotto",
+          "description": "Pizza inchina partial",
+          "price": 48.0,
+          "gramaj": 530,
+          "image": ""
+        },
+        {
+          "id": 23901114,
+          "name": "Pizza Calzone Fritto",
+          "description": "Pizza inchisa prajita in ulei",
+          "price": 49.0,
+          "gramaj": 530,
+          "image": ""
+        },
+        {
+          "id": 23901118,
+          "name": "Pizza Prosciutto Crudo",
+          "description": "",
+          "price": 57.0,
+          "gramaj": 600,
+          "image": ""
+        },
+        {
+          "id": 23901116,
+          "name": "Pizza Montanara",
+          "description": "",
+          "price": 57.0,
+          "gramaj": 610,
+          "image": ""
+        },
+        {
+          "id": 23901122,
+          "name": "Pizza Capricciosa",
+          "description": "",
+          "price": 48.0,
+          "gramaj": 610,
+          "image": ""
+        },
+        {
+          "id": 23901130,
+          "name": "Pizza Pulcinella",
+          "description": "",
+          "price": 49.0,
+          "gramaj": 595,
+          "image": ""
+        },
+        {
+          "id": 23901134,
+          "name": "Pizza Vegetariană alla Griglia",
+          "description": "",
+          "price": 49.0,
+          "gramaj": 630,
+          "image": ""
+        },
+        {
+          "id": 23901124,
+          "name": "Pizza Caprese",
+          "description": "",
+          "price": 46.0,
+          "gramaj": 590,
+          "image": ""
+        },
+        {
+          "id": 23901128,
+          "name": "Pizza Funghi Porcini",
+          "description": "",
+          "price": 47.0,
+          "gramaj": 590,
+          "image": ""
+        },
+        {
+          "id": 23901126,
+          "name": "Pizza Quattro Stagioni",
+          "description": "pizza impartita in 4",
+          "price": 49.0,
+          "gramaj": 590,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 23900983,
+      "name": "Paste umplute făcute în casă",
+      "description": "",
+      "image": "",
+      "products": [
+        {
+          "id": 23901200,
+          "name": "Tortellini Burro e Salvia",
+          "description": "",
+          "price": 45.0,
+          "gramaj": 210,
+          "image": ""
+        },
+        {
+          "id": 23901188,
+          "name": "Lasagna alla Norma",
+          "description": "Straturi de paste , vinete, provola si urda",
+          "price": 47.0,
+          "gramaj": 300,
+          "image": ""
+        },
+        {
+          "id": 23901198,
+          "name": "Lasagna",
+          "description": "Straturi de paste asezate cu sos de carne si besamel",
+          "price": 47.0,
+          "gramaj": 320,
+          "image": ""
+        },
+        {
+          "id": 23901196,
+          "name": "Tortellini Bolognese",
+          "description": "Paste umplute cu carne de pui și cu carne de porc",
+          "price": 47.0,
+          "gramaj": 220,
+          "image": ""
+        },
+        {
+          "id": 24009807,
+          "name": "Tortellini Panna e Prosciutto",
+          "description": "Paste umplute cu carne de pui și cu carne de porc",
+          "price": 47.0,
+          "gramaj": 240,
+          "image": ""
+        },
+        {
+          "id": 23901192,
+          "name": "Fagottini Quattro Formaggi",
+          "description": "Paste umplute cu Hribi",
+          "price": 48.0,
           "gramaj": 200,
-          "image": "cappuccino.jpg",
-          "popular": true,
-          "allergens": ["lactose"]
+          "image": ""
         },
         {
-          "id": "b6",
-          "name": "Vin Casă (pahar)",
-          "description": "Vin roșu sau alb de casă 150ml",
-          "price": 18,
+          "id": 23901194,
+          "name": "Fagottini Pomodoro Fresco",
+          "description": "",
+          "price": 46.0,
+          "gramaj": 200,
+          "image": ""
+        },
+        {
+          "id": 23901190,
+          "name": "Ravioli Pomodoro Fresco",
+          "description": "Paste umplute cu urda si spanac",
+          "price": 46.0,
+          "gramaj": 220,
+          "image": ""
+        },
+        {
+          "id": 24025818,
+          "name": "Ravioli Quattro Formaggi",
+          "description": "Paste umplute cu urda si spanac",
+          "price": 48.0,
+          "gramaj": 220,
+          "image": ""
+        },
+        {
+          "id": 23901202,
+          "name": "Cannelloni Ripieni",
+          "description": "Rulou de paste umplute cu carne de pui si porc",
+          "price": 47.0,
+          "gramaj": 220,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 23900979,
+      "name": "Paste făcute în casă",
+      "description": "",
+      "image": "",
+      "products": [
+        {
+          "id": 23901164,
+          "name": "Spaghetti alla Chitarra Cacio e Pepe",
+          "description": "",
+          "price": 45.0,
+          "gramaj": 160,
+          "image": ""
+        },
+        {
+          "id": 23901174,
+          "name": "Paste Pomodoro Fresco",
+          "description": "Paste făcute în casă, sos de roşii proaspete,",
+          "price": 43.0,
+          "gramaj": 210,
+          "image": ""
+        },
+        {
+          "id": 23901178,
+          "name": "Pasta Arrabbiata",
+          "description": "Paste făcute în casă, sos de roşii picant",
+          "price": 42.0,
+          "gramaj": 210,
+          "image": ""
+        },
+        {
+          "id": 23901180,
+          "name": "Pasta Panna e Prosciutto",
+          "description": "Paste făcute în casă, sos cu smântână şi şuncă",
+          "price": 43.0,
+          "gramaj": 210,
+          "image": ""
+        },
+        {
+          "id": 23901182,
+          "name": "Pasta alla Boscaiola",
+          "description": "Paste făcute în casă, sos de roşii ,ciuperci champignon si hribi",
+          "price": 44.0,
+          "gramaj": 220,
+          "image": ""
+        },
+        {
+          "id": 23901172,
+          "name": "Pasta Ragù Bolognese",
+          "description": "Paste făcute în casă, sos de roşii si carne",
+          "price": 44.0,
+          "gramaj": 220,
+          "image": ""
+        },
+        {
+          "id": 23901184,
+          "name": "Pasta al Salmone",
+          "description": "Paste făcute în casă, sos de smântână si somon",
+          "price": 47.0,
+          "gramaj": 220,
+          "image": ""
+        },
+        {
+          "id": 23901176,
+          "name": "Pasta Amatriciana",
+          "description": "Paste făcute în casă, sos de roșii, guanciale si ceapa",
+          "price": 46.0,
+          "gramaj": 220,
+          "image": ""
+        },
+        {
+          "id": 23901170,
+          "name": "Tagliolini ai Porcini",
+          "description": "Paste făcute în casă, sos de roșii, ciuperci porcini, sos de smântână",
+          "price": 46.0,
+          "gramaj": 230,
+          "image": ""
+        },
+        {
+          "id": 23901186,
+          "name": "Pasta Quattro Formaggi",
+          "description": "Paste făcute în casă cu sos de patru branzeturi",
+          "price": 47.0,
+          "gramaj": 200,
+          "image": ""
+        },
+        {
+          "id": 23901168,
+          "name": "Rigatini al Cartoccio",
+          "description": "Paste făcute în casă, gatite la cuptor (în folie de aluminiu)",
+          "price": 58.0,
+          "gramaj": 430,
+          "image": ""
+        },
+        {
+          "id": 23901166,
+          "name": "Tagliatelle Panna e Porcini",
+          "description": "Panna e Porcini (sos alb)",
+          "price": 47.0,
+          "gramaj": 200,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 23891582,
+      "name": "Paste",
+      "description": "",
+      "image": "",
+      "products": [
+        {
+          "id": 23901152,
+          "name": "Bucatini Amatriciana",
+          "description": "",
+          "price": 46.0,
+          "gramaj": 210,
+          "image": ""
+        },
+        {
+          "id": 23901144,
+          "name": "Paste Aglio Olio e Peperoncino",
+          "description": "",
+          "price": 42.0,
           "gramaj": 150,
-          "image": "vin.jpg",
-          "popular": false,
-          "allergens": [],
-          "options": ["Roșu", "Alb"]
+          "image": ""
         },
         {
-          "id": "b7",
-          "name": "Birra Moretti",
-          "description": "Bere italiană Moretti 0.33L",
-          "price": 16,
+          "id": 23901146,
+          "name": "Paste Panna e Prosciutto",
+          "description": "",
+          "price": 42.0,
+          "gramaj": 200,
+          "image": ""
+        },
+        {
+          "id": 23901148,
+          "name": "Paste Ragú Bolognese",
+          "description": "",
+          "price": 43.0,
+          "gramaj": 220,
+          "image": ""
+        },
+        {
+          "id": 23901150,
+          "name": "Paste Pomodoro fresco",
+          "description": "",
+          "price": 42.0,
+          "gramaj": 210,
+          "image": ""
+        },
+        {
+          "id": 23901154,
+          "name": "Paste Arrabbiata",
+          "description": "",
+          "price": 41.0,
+          "gramaj": 200,
+          "image": ""
+        },
+        {
+          "id": 23901156,
+          "name": "Paste Quattro Formaggi",
+          "description": "",
+          "price": 46.0,
+          "gramaj": 200,
+          "image": ""
+        },
+        {
+          "id": 23901160,
+          "name": "Paste Tonno e Capperi",
+          "description": "",
+          "price": 44.0,
+          "gramaj": 210,
+          "image": ""
+        },
+        {
+          "id": 23901158,
+          "name": "Spaghetti allo Scoglio",
+          "description": "",
+          "price": 62.0,
+          "gramaj": 430,
+          "image": ""
+        },
+        {
+          "id": 23901162,
+          "name": "Paste alle Vongole",
+          "description": "",
+          "price": 57.0,
+          "gramaj": 250,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 23900985,
+      "name": "Specialitățile casei",
+      "description": "",
+      "image": "",
+      "products": [
+        {
+          "id": 26705661,
+          "name": "Bucatini Ricotta e Nduja",
+          "description": "",
+          "price": 49.0,
+          "gramaj": 210,
+          "image": ""
+        },
+        {
+          "id": 23901210,
+          "name": "Paccheri al Pomodoro Fresco",
+          "description": "Paste tipice napoletane cu sos de roșii proaspete",
+          "price": 47.0,
+          "gramaj": 200,
+          "image": ""
+        },
+        {
+          "id": 23901204,
+          "name": "Melanzane alla Parmigiana",
+          "description": "Vinete prajite in ulei asezate in straturi cu sos, mozzarella si sunca",
+          "price": 49.0,
+          "gramaj": 340,
+          "image": ""
+        },
+        {
+          "id": 23901212,
+          "name": "Rigatoni Pasticciati",
+          "description": "Paste gătite în cuptor",
+          "price": 49.0,
+          "gramaj": 260,
+          "image": ""
+        },
+        {
+          "id": 24024873,
+          "name": "Spaghetti dei Becchi",
+          "description": "",
+          "price": 44.0,
+          "gramaj": 210,
+          "image": ""
+        },
+        {
+          "id": 27099546,
+          "name": "Pasta e Fasule",
+          "description": "Paste cu ou, fasoale, sos de rosii si o felie de paine",
+          "price": 46.0,
+          "gramaj": 230,
+          "image": ""
+        },
+        {
+          "id": 24024985,
+          "name": "Pasta Fasule e Cozze",
+          "description": "Paste cu ou, fasole, sos de rosii, midii si o felie de paine",
+          "price": 49.0,
+          "gramaj": 250,
+          "image": ""
+        },
+        {
+          "id": 27102922,
+          "name": "Minestrone di Verdure",
+          "description": "",
+          "price": 37.0,
+          "gramaj": 200,
+          "image": ""
+        },
+        {
+          "id": 24025179,
+          "name": "Minestrone con Tagliolini",
+          "description": "",
+          "price": 40.0,
+          "gramaj": 230,
+          "image": ""
+        },
+        {
+          "id": 24025765,
+          "name": "Penne Pomodoro e Burrata",
+          "description": "Paste cu sos si Burrata",
+          "price": 57.0,
+          "gramaj": 300,
+          "image": ""
+        },
+        {
+          "id": 23901214,
+          "name": "Spaghetti alla Carbonara",
+          "description": "",
+          "price": 48.0,
+          "gramaj": 210,
+          "image": ""
+        },
+        {
+          "id": 23901206,
+          "name": "Gnocchi alla Sorrentina",
+          "description": "Paste din făină și cartofi, sos de roșii, mozzarella",
+          "price": 45.0,
+          "gramaj": 230,
+          "image": ""
+        },
+        {
+          "id": 23901208,
+          "name": "Gnocchi al Gorgonzola",
+          "description": "Paste din făină și cartofi, sos cu gorgonzola",
+          "price": 47.0,
+          "gramaj": 200,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 24031622,
+      "name": "Secondi e Fritti",
+      "description": "",
+      "image": "",
+      "products": [
+        {
+          "id": 26879030,
+          "name": "Baccalá e scarola",
+          "description": "Ventresca di Baccalá all&apos;acqua pazza cu scarola, cartofi fierti si putin pomodoro fresco",
+          "price": 55.0,
+          "gramaj": 220,
+          "image": ""
+        },
+        {
+          "id": 24031899,
+          "name": "Fritto di paranza",
+          "description": "Calamari, Creveti, Cod, Barbun, Merluciu prajite in ulei",
+          "price": 70.0,
+          "gramaj": 300,
+          "image": ""
+        },
+        {
+          "id": 24034231,
+          "name": "Bufala in Crosta",
+          "description": "Mozzarella di bufala in aluat prajita in ulei",
+          "price": 57.0,
+          "gramaj": 280,
+          "image": ""
+        },
+        {
+          "id": 24034234,
+          "name": "Impepata di cozze",
+          "description": "",
+          "price": 44.0,
+          "gramaj": 280,
+          "image": ""
+        },
+        {
+          "id": 24034228,
+          "name": "Purp e Patane",
+          "description": "Cartofi si Caracatita ( nu sunt fierbinti )",
+          "price": 58.0,
+          "gramaj": 180,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 24031654,
+      "name": "Insalate",
+      "description": "",
+      "image": "",
+      "products": [
+        {
+          "id": 24036984,
+          "name": "Insalata Pomodorini e Patate",
+          "description": "",
+          "price": 40.0,
+          "gramaj": 380,
+          "image": ""
+        },
+        {
+          "id": 26677298,
+          "name": "Insalata Nizzarda",
+          "description": "",
+          "price": 44.0,
+          "gramaj": 340,
+          "image": ""
+        },
+        {
+          "id": 24031969,
+          "name": "Insalata Marechiaro",
+          "description": "",
+          "price": 63.0,
+          "gramaj": 250,
+          "image": ""
+        },
+        {
+          "id": 26677157,
+          "name": "Insalata Caprese",
+          "description": "",
+          "price": 53.0,
+          "gramaj": 380,
+          "image": ""
+        },
+        {
+          "id": 24037007,
+          "name": "Insalata al Tonno",
+          "description": "",
+          "price": 51.0,
+          "gramaj": 310,
+          "image": ""
+        },
+        {
+          "id": 24036352,
+          "name": "Insalata Mista",
+          "description": "",
+          "price": 36.0,
+          "gramaj": 210,
+          "image": ""
+        },
+        {
+          "id": 24036832,
+          "name": "Insalata semplice",
+          "description": "",
+          "price": 31.0,
+          "gramaj": 150,
+          "image": ""
+        },
+        {
+          "id": 24036381,
+          "name": "Salata verde",
+          "description": "",
+          "price": 16.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24036407,
+          "name": "Salata de Rosii",
+          "description": "",
+          "price": 16.0,
+          "gramaj": 100,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 24031646,
+      "name": "Garnituri",
+      "description": "",
+      "image": "",
+      "products": [
+        {
+          "id": 24031902,
+          "name": "Cartofi la cuptor",
+          "description": "",
+          "price": 17.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24036145,
+          "name": "Cartofi prajiti",
+          "description": "",
+          "price": 16.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24036181,
+          "name": "Legume la gratar",
+          "description": "",
+          "price": 28.0,
+          "gramaj": 360,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 23900998,
+      "name": "Deserturi",
+      "description": "",
+      "image": "",
+      "products": [
+        {
+          "id": 24037535,
+          "name": "Cannolo",
+          "description": "",
+          "price": 23.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24037808,
+          "name": "Tiramisu",
+          "description": "",
+          "price": 21.0,
+          "gramaj": 110,
+          "image": ""
+        },
+        {
+          "id": 23901228,
+          "name": "Delizia al Limone",
+          "description": "",
+          "price": 23.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24037301,
+          "name": "Cassatina Siciliana",
+          "description": "",
+          "price": 23.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24037473,
+          "name": "Babá",
+          "description": "",
+          "price": 21.0,
+          "gramaj": 130,
+          "image": ""
+        },
+        {
+          "id": 24037746,
+          "name": "Nocciola",
+          "description": "",
+          "price": 21.0,
+          "gramaj": 110,
+          "image": ""
+        },
+        {
+          "id": 23901226,
+          "name": "Panna Cotta",
+          "description": "",
+          "price": 21.0,
+          "gramaj": 120,
+          "image": ""
+        },
+        {
+          "id": 24037688,
+          "name": "Ricotta e Pera",
+          "description": "",
+          "price": 23.0,
+          "gramaj": 100,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 24050988,
+      "name": "Caffé",
+      "description": "",
+      "image": "",
+      "products": [
+        {
+          "id": 26014643,
+          "name": "Ice Coffe BRASILENA",
+          "description": "Bautura Racoritoare cu cafea si apa minerala",
+          "price": 15.0,
+          "gramaj": 180,
+          "image": ""
+        },
+        {
+          "id": 24053989,
+          "name": "Caffé Espresso",
+          "description": "Zi caffé",
+          "price": 13.0,
+          "gramaj": 50,
+          "image": ""
+        },
+        {
+          "id": 24053941,
+          "name": "Caffé Espresso dublu",
+          "description": "Zi caffé",
+          "price": 16.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24053980,
+          "name": "Caffé Corretto",
+          "description": "Zi caffé",
+          "price": 17.0,
+          "gramaj": 60,
+          "image": ""
+        },
+        {
+          "id": 24053983,
+          "name": "Caffé Espresso cu frisca",
+          "description": "Zi caffé",
+          "price": 16.0,
+          "gramaj": 75,
+          "image": ""
+        },
+        {
+          "id": 24053992,
+          "name": "Caffé Decaffeinato",
+          "description": "Zi caffé",
+          "price": 13.0,
+          "gramaj": 50,
+          "image": ""
+        },
+        {
+          "id": 24053974,
+          "name": "Cappuccino",
+          "description": "Zi caffé",
+          "price": 16.0,
+          "gramaj": 110,
+          "image": ""
+        },
+        {
+          "id": 24053977,
+          "name": "Latte Macchiato",
+          "description": "Zi caffé",
+          "price": 18.0,
+          "gramaj": 220,
+          "image": ""
+        },
+        {
+          "id": 24053986,
+          "name": "Ciocolata Calda",
+          "description": "",
+          "price": 20.0,
+          "gramaj": 200,
+          "image": ""
+        },
+        {
+          "id": 24054520,
+          "name": "Ceai Lamaie si menta",
+          "description": "",
+          "price": 11.0,
+          "gramaj": 220,
+          "image": ""
+        },
+        {
+          "id": 24053995,
+          "name": "Ceai Fructe de padure",
+          "description": "",
+          "price": 11.0,
+          "gramaj": 220,
+          "image": ""
+        },
+        {
+          "id": 24054501,
+          "name": "Ceai Verde cu iasomie",
+          "description": "",
+          "price": 11.0,
+          "gramaj": 220,
+          "image": ""
+        },
+        {
+          "id": 24054515,
+          "name": "Ceai de vanilie",
+          "description": "",
+          "price": 11.0,
+          "gramaj": 220,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 23901000,
+      "name": "Băuturi",
+      "description": "",
+      "image": "",
+      "products": [
+        {
+          "id": 31394219,
+          "name": "Coca-Cola",
+          "description": "Gust original",
+          "price": 10.0,
+          "gramaj": 250,
+          "image": ""
+        },
+        {
+          "id": 31397656,
+          "name": "Coca-Cola ZERO",
+          "description": "",
+          "price": 10.0,
+          "gramaj": 250,
+          "image": ""
+        },
+        {
+          "id": 31397799,
+          "name": "Fanta (Portocale, Struguri)",
+          "description": "",
+          "price": 10.0,
+          "gramaj": 250,
+          "image": ""
+        },
+        {
+          "id": 31397858,
+          "name": "Sprite",
+          "description": "",
+          "price": 10.0,
+          "gramaj": 250,
+          "image": ""
+        },
+        {
+          "id": 31398505,
+          "name": "Schweppes",
+          "description": "",
+          "price": 10.0,
+          "gramaj": 250,
+          "image": ""
+        },
+        {
+          "id": 31398586,
+          "name": "Fuzetea (Lamaie, Piersica)",
+          "description": "",
+          "price": 10.0,
+          "gramaj": 250,
+          "image": ""
+        },
+        {
+          "id": 31398652,
+          "name": "Cappy Nectar (Porto, Piersica, Par, Visine)",
+          "description": "",
+          "price": 10.0,
+          "gramaj": 250,
+          "image": ""
+        },
+        {
+          "id": 31398709,
+          "name": "Apa Dorna 0.33 (Plata, Carbo)",
+          "description": "",
+          "price": 12.0,
           "gramaj": 330,
-          "image": "moretti.jpg",
-          "popular": true,
-          "allergens": ["gluten"]
+          "image": ""
+        },
+        {
+          "id": 31398842,
+          "name": "Apa Dorna 0.75 (Plata, Carbo)",
+          "description": "",
+          "price": 16.0,
+          "gramaj": 750,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 23901002,
+      "name": "Freshuri",
+      "description": "",
+      "image": "",
+      "products": [
+        {
+          "id": 25098170,
+          "name": "Limonada",
+          "description": "",
+          "price": 16.0,
+          "gramaj": 250,
+          "image": ""
+        },
+        {
+          "id": 24362286,
+          "name": "Limonada cu Fructul Pasiunii",
+          "description": "",
+          "price": 18.0,
+          "gramaj": 250,
+          "image": ""
+        },
+        {
+          "id": 25098736,
+          "name": "Limonada cu Pepene Rosu",
+          "description": "",
+          "price": 18.0,
+          "gramaj": 250,
+          "image": ""
+        },
+        {
+          "id": 25098721,
+          "name": "Limonada cu Fructe de padure",
+          "description": "",
+          "price": 18.0,
+          "gramaj": 250,
+          "image": ""
+        },
+        {
+          "id": 25098753,
+          "name": "Limonada cu Flori de Soc",
+          "description": "",
+          "price": 18.0,
+          "gramaj": 250,
+          "image": ""
+        },
+        {
+          "id": 25098714,
+          "name": "Limonada cu Menta",
+          "description": "",
+          "price": 18.0,
+          "gramaj": 250,
+          "image": ""
+        },
+        {
+          "id": 23901254,
+          "name": "Limonada",
+          "description": "",
+          "price": 29.0,
+          "gramaj": 400,
+          "image": ""
+        },
+        {
+          "id": 23901250,
+          "name": "Fresh de Portocale",
+          "description": "",
+          "price": 16.0,
+          "gramaj": 250,
+          "image": ""
+        },
+        {
+          "id": 23901252,
+          "name": "Fresh de Grapefruit",
+          "description": "",
+          "price": 16.0,
+          "gramaj": 250,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 24050994,
+      "name": "Cocktail",
+      "description": "",
+      "image": "",
+      "products": [
+        {
+          "id": 24081822,
+          "name": "Malfy Gin Tonic 230ml",
+          "description": "",
+          "price": 31.0,
+          "gramaj": 230,
+          "image": ""
+        },
+        {
+          "id": 24082261,
+          "name": "Aperol Spritz 230ml",
+          "description": "Aperitivo",
+          "price": 29.0,
+          "gramaj": 230,
+          "image": ""
+        },
+        {
+          "id": 24082427,
+          "name": "Negroni 120ml",
+          "description": "GIN alc 42, VERMOUTH alc 16, CAMPARI alc 25",
+          "price": 42.0,
+          "gramaj": 230,
+          "image": ""
+        },
+        {
+          "id": 28643997,
+          "name": "Saline Gin Tonic 230ml",
+          "description": "",
+          "price": 31.0,
+          "gramaj": 230,
+          "image": ""
+        },
+        {
+          "id": 28829490,
+          "name": "Campari Orange 230ml",
+          "description": "",
+          "price": 29.0,
+          "gramaj": 230,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 23901006,
+      "name": "Bere Artizanală",
+      "description": "",
+      "image": "",
+      "products": [
+        {
+          "id": 23901272,
+          "name": "Cosmobaut Lager 0.5L",
+          "description": "Bere a La Cluj",
+          "price": 19.0,
+          "gramaj": 500,
+          "image": ""
+        },
+        {
+          "id": 23901258,
+          "name": "Clusa 1876 Lager 0.5L",
+          "description": "Clusa",
+          "price": 16.0,
+          "gramaj": 500,
+          "image": ""
+        },
+        {
+          "id": 23901262,
+          "name": "Clusa 1919 HL 0.33L",
+          "description": "Clusa",
+          "price": 15.0,
+          "gramaj": 330,
+          "image": ""
+        },
+        {
+          "id": 23901260,
+          "name": "Clusa 1913 RL 0.5L",
+          "description": "Clusa",
+          "price": 18.0,
+          "gramaj": 500,
+          "image": ""
+        },
+        {
+          "id": 23901274,
+          "name": "Astrobaut Lager DHC 0.5L",
+          "description": "Bere a La Cluj",
+          "price": 20.0,
+          "gramaj": 500,
+          "image": ""
+        },
+        {
+          "id": 23901278,
+          "name": "Immigrant APA 0.33L",
+          "description": "Hophead",
+          "price": 16.0,
+          "gramaj": 330,
+          "image": ""
+        },
+        {
+          "id": 23901280,
+          "name": "Little D PA 0.33L",
+          "description": "Hophead",
+          "price": 18.0,
+          "gramaj": 330,
+          "image": ""
+        },
+        {
+          "id": 23901266,
+          "name": "Clusa 1316 CA 0.33L",
+          "description": "Clusa",
+          "price": 15.0,
+          "gramaj": 330,
+          "image": ""
+        },
+        {
+          "id": 23901270,
+          "name": "Pitica Roșie IPA 0.33L",
+          "description": "Bere a La Cluj",
+          "price": 20.0,
+          "gramaj": 330,
+          "image": ""
+        },
+        {
+          "id": 23901276,
+          "name": "Opium IPA 0.33L",
+          "description": "Hophead",
+          "price": 18.0,
+          "gramaj": 330,
+          "image": ""
+        },
+        {
+          "id": 23901264,
+          "name": "Clusa 1989 IPA 0.33L",
+          "description": "Clusa",
+          "price": 16.0,
+          "gramaj": 330,
+          "image": ""
+        },
+        {
+          "id": 24079610,
+          "name": "Gaura Neagra EP 0.33L",
+          "description": "Bere a La Cluj",
+          "price": 19.0,
+          "gramaj": 500,
+          "image": ""
+        },
+        {
+          "id": 24079688,
+          "name": "Altair W 0.5L",
+          "description": "Bere a La Cluj",
+          "price": 20.0,
+          "gramaj": 500,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 24050975,
+      "name": "Bere si Cidru",
+      "description": "",
+      "image": "",
+      "products": [
+        {
+          "id": 24081531,
+          "name": "Weihenstephaner 0.5L",
+          "description": "Bere Nefiltrata",
+          "price": 18.0,
+          "gramaj": 500,
+          "image": ""
+        },
+        {
+          "id": 31415066,
+          "name": "Poretti 0.33 L",
+          "description": "Premium Lager",
+          "price": 13.0,
+          "gramaj": 330,
+          "image": ""
+        },
+        {
+          "id": 31456462,
+          "name": "Tuborg  0.33 L",
+          "description": "Bere blonda",
+          "price": 13.0,
+          "gramaj": 330,
+          "image": ""
+        },
+        {
+          "id": 31456574,
+          "name": "Kronenburg Blanc 0.33 L",
+          "description": "Bere blonda",
+          "price": 13.0,
+          "gramaj": 330,
+          "image": ""
+        },
+        {
+          "id": 31456638,
+          "name": "Carlsberg 0.33 L",
+          "description": "Bere blonda",
+          "price": 13.0,
+          "gramaj": 330,
+          "image": ""
+        },
+        {
+          "id": 31456661,
+          "name": "Bucur Bruna 0.35 L",
+          "description": "Bere bruna",
+          "price": 14.0,
+          "gramaj": 350,
+          "image": ""
+        },
+        {
+          "id": 31456699,
+          "name": "Bucur Blonda 0.35 L",
+          "description": "Bere blonda",
+          "price": 14.0,
+          "gramaj": 350,
+          "image": ""
+        },
+        {
+          "id": 24081568,
+          "name": "Carlsberg NA 0.33L",
+          "description": "Fara Alcool",
+          "price": 13.0,
+          "gramaj": 330,
+          "image": ""
+        },
+        {
+          "id": 24081628,
+          "name": "Holstein Radler NA 0.33L",
+          "description": "Radler Fara Alcool",
+          "price": 13.0,
+          "gramaj": 330,
+          "image": ""
+        },
+        {
+          "id": 24080069,
+          "name": "Somersby Afine 0.33L",
+          "description": "Cidru",
+          "price": 14.0,
+          "gramaj": 330,
+          "image": ""
+        },
+        {
+          "id": 24079644,
+          "name": "Somersby Pere 0.33L",
+          "description": "Cidru",
+          "price": 14.0,
+          "gramaj": 330,
+          "image": ""
+        },
+        {
+          "id": 24079852,
+          "name": "Somersby Mure 0.33L",
+          "description": "Cidru",
+          "price": 14.0,
+          "gramaj": 330,
+          "image": ""
+        },
+        {
+          "id": 24079824,
+          "name": "Somersby Mere 0.33L",
+          "description": "Cidru",
+          "price": 14.0,
+          "gramaj": 330,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 23901004,
+      "name": "Vinuri",
+      "description": "",
+      "image": "",
+      "products": [
+        {
+          "id": 24088718,
+          "name": "Vin Pahar Rosu 150ml.",
+          "description": "COTNARI Feteasca Neagra",
+          "price": 26.0,
+          "gramaj": 150,
+          "image": ""
+        },
+        {
+          "id": 24089132,
+          "name": "Vin Pahar Alb 150ml.",
+          "description": "COTNARI Feteasca Alba",
+          "price": 26.0,
+          "gramaj": 150,
+          "image": ""
+        },
+        {
+          "id": 24089150,
+          "name": "Vin Pahar Rose 150ml.",
+          "description": "COTNARI Busuioaca de Bohotin",
+          "price": 26.0,
+          "gramaj": 150,
+          "image": ""
+        },
+        {
+          "id": 24090704,
+          "name": "Purcari Rara Neagra 0.75L",
+          "description": "Sticla Nocturne",
+          "price": 120.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24089703,
+          "name": "Salice Salentino Riserva DOC 0.75L",
+          "description": "Sticla",
+          "price": 130.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24089521,
+          "name": "Terre della Baronia 0.75L",
+          "description": "Sticla",
+          "price": 180.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24089778,
+          "name": "Maria Costanza 0.75L",
+          "description": "Sticla",
+          "price": 260.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24089816,
+          "name": "Fancello 0.75L",
+          "description": "Sticla",
+          "price": 155.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24089931,
+          "name": "Amarone della Valpolicella DOC 0.75L",
+          "description": "Sticla",
+          "price": 195.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24089993,
+          "name": "Valpolicella Ripasso DOC 0.75L",
+          "description": "Sticla",
+          "price": 130.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24089877,
+          "name": "Negroamaro Salento IGT 0.75L",
+          "description": "Sticla",
+          "price": 130.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24090103,
+          "name": "Pellirosso Negroamaro IGP 0.75L",
+          "description": "Sticla",
+          "price": 130.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24090174,
+          "name": "Primitivo IGT 0.75L",
+          "description": "Sticla",
+          "price": 120.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24090239,
+          "name": "Vladoianu 0.75L",
+          "description": "Sticla",
+          "price": 130.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24090416,
+          "name": "Purcari Pinot Grigio 0.75L",
+          "description": "Sticla Nocturne",
+          "price": 110.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24090285,
+          "name": "Ana Chardonnay 0.75L",
+          "description": "Sticla",
+          "price": 115.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24090471,
+          "name": "Maria Pinot Gris DOC 0.75L",
+          "description": "Sticla",
+          "price": 115.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24747965,
+          "name": "Zibibbo IGP 0.75L",
+          "description": "Sticla",
+          "price": 120.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24090485,
+          "name": "Catarratto Donna Angelica 0.75L",
+          "description": "Sticla",
+          "price": 145.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24090544,
+          "name": "Vignavella 0.75L",
+          "description": "Sticla",
+          "price": 230.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24090639,
+          "name": "Zibibbo Assuli 0,75L",
+          "description": "Sticla",
+          "price": 120.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24090695,
+          "name": "Tamaioasa Romaneasca 0.75L",
+          "description": "Sticla",
+          "price": 115.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24090739,
+          "name": "Purcari Rose 0.75L",
+          "description": "Sticla Nocturne",
+          "price": 110.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24089606,
+          "name": "Busuioaca de Bohotin 0.75L",
+          "description": "Sticla",
+          "price": 115.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24090952,
+          "name": "Asolo Prosecco Superiore Extra Dry DOC 0.75L",
+          "description": "Sticla",
+          "price": 110.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24089185,
+          "name": "Asolo Prosecco Superiore Brut DOC 0.75L",
+          "description": "Sticla",
+          "price": 110.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24090875,
+          "name": "Prosecco Extra Dry  DOC 0.375L",
+          "description": "Sticla",
+          "price": 39.0,
+          "gramaj": 375,
+          "image": ""
+        },
+        {
+          "id": 24091061,
+          "name": "Passerina 0.75L",
+          "description": "Sticla",
+          "price": 110.0,
+          "gramaj": 750,
+          "image": ""
+        },
+        {
+          "id": 24090975,
+          "name": "Bianco di Nera 0.75L",
+          "description": "Sticla",
+          "price": 150.0,
+          "gramaj": 750,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 24050992,
+      "name": "Bauturi Alcoolice",
+      "description": "",
+      "image": "",
+      "products": [
+        {
+          "id": 24082170,
+          "name": "Finlandia 100ml",
+          "description": "Vodka",
+          "price": 36.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24081867,
+          "name": "Beluga 100ml",
+          "description": "Vodka",
+          "price": 45.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24082052,
+          "name": "Miorita XO 100ml",
+          "description": "Vinars XO",
+          "price": 59.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24081891,
+          "name": "Jidvei 100ml",
+          "description": "Vinars VSOP",
+          "price": 36.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24081936,
+          "name": "Havana Club 100ml",
+          "description": "RUM",
+          "price": 36.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24081917,
+          "name": "Olmeca 100ml",
+          "description": "Tequila Silver",
+          "price": 35.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24082070,
+          "name": "Vecchia Romagna 100ml",
+          "description": "Brandy Etichetta Nera",
+          "price": 49.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24081876,
+          "name": "Jack Daniels 100ml",
+          "description": "Whiskey",
+          "price": 45.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24082109,
+          "name": "Chivas Regal 100ml",
+          "description": "Scotch Whisky",
+          "price": 47.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24082120,
+          "name": "Jameson 100ml",
+          "description": "Irish Whiskey",
+          "price": 49.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24082156,
+          "name": "Martini 100ml",
+          "description": "Vermouth Rosso o Bianco",
+          "price": 35.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 28643879,
+          "name": "INSULAE Saline GIN 100ml",
+          "description": "Saline dry Gin",
+          "price": 48.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24082383,
+          "name": "Malfy GIN 100ml",
+          "description": "Italian Gin",
+          "price": 48.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24082207,
+          "name": "Campari 100ml",
+          "description": "Bitter",
+          "price": 33.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24082414,
+          "name": "Aperol 100ml",
+          "description": "Aperitivo",
+          "price": 32.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 28829377,
+          "name": "Molinari 100ml",
+          "description": "Sambuca",
+          "price": 35.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 28829466,
+          "name": "Donna Rosa Rosolio 100ml",
+          "description": "INSULAE ROSOLIO",
+          "price": 42.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 30416049,
+          "name": "Moena Vermouth 100ml",
+          "description": "VERMOUTH",
+          "price": 42.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24082322,
+          "name": "Unicum 100ml",
+          "description": "Zwack Lichior de Plante",
+          "price": 36.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24082343,
+          "name": "Ramazzotti 100ml",
+          "description": "Amaro",
+          "price": 36.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24082330,
+          "name": "Disaronno 100ml",
+          "description": "Amaretto",
+          "price": 40.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24082336,
+          "name": "Averna 100ml",
+          "description": "Amaro",
+          "price": 36.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24082360,
+          "name": "Jagermeister 100ml",
+          "description": "Lichior de Plante",
+          "price": 38.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24082369,
+          "name": "Montenegro 100ml",
+          "description": "Amaro",
+          "price": 36.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 24082373,
+          "name": "Amaro del Capo 100ml",
+          "description": "Amaro",
+          "price": 36.0,
+          "gramaj": 100,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 23900996,
+      "name": "Sosuri",
+      "description": "",
+      "image": "",
+      "products": [
+        {
+          "id": 23901224,
+          "name": "Ulei cu usturoi",
+          "description": "",
+          "price": 3.0,
+          "gramaj": 50,
+          "image": ""
+        },
+        {
+          "id": 23901222,
+          "name": "Ulei picant",
+          "description": "",
+          "price": 3.0,
+          "gramaj": 50,
+          "image": ""
+        },
+        {
+          "id": 23901216,
+          "name": "Sos de roșii dulce",
+          "description": "",
+          "price": 6.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 23901218,
+          "name": "Sos de rosii picant",
+          "description": "",
+          "price": 6.0,
+          "gramaj": 100,
+          "image": ""
+        },
+        {
+          "id": 23901220,
+          "name": "Parmigiano razalit",
+          "description": "",
+          "price": 6.0,
+          "gramaj": 100,
+          "image": ""
         }
       ]
     }
-  ],
-  "config": {
-    "delivery_fee": 10,
-    "min_order": 50,
-    "free_delivery_threshold": 100,
-    "estimated_delivery_time": "45-60 minute",
-    "payment_methods": ["cash", "card", "online"],
-    "tax_rate": 0.09
-  }
+  ]
 }

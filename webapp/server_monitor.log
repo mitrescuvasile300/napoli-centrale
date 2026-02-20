@@ -1,0 +1,44 @@
+127.0.0.1 - - [20/Feb/2026 15:01:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2026 15:01:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2026 15:01:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Feb/2026 15:01:38] "GET / HTTP/1.1" 200 -
+82.77.240.89 - - [20/Feb/2026 15:01:43] "GET / HTTP/1.1" 200 -
+82.77.240.89 - - [20/Feb/2026 15:01:43] "GET /_next/static/chunks/506a36c888cdd324.css HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2026 15:01:43] "GET / HTTP/1.1" 200 -
+82.77.240.89 - - [20/Feb/2026 15:01:43] "GET /_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2 HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:43] "GET /_next/static/media/1bffadaabf893a1e-s.7cd81963.woff2 HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:43] "GET /_next/static/chunks/cdc2aa60525150e9.js HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:43] "GET /_next/static/chunks/f2f58a7e93290fbb.js HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:43] "GET /_next/static/chunks/a9c23770ec4804e4.js HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:43] "GET /_next/static/chunks/82abf2d65f5428ae.js HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:43] "GET /_next/static/chunks/d1e5c14786f5d34d.js HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:43] "GET /_next/static/chunks/turbopack-01a1f1fc242bec37.js HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:43] "GET /_next/static/chunks/ff1a16fafef87110.js HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:43] "GET /_next/static/chunks/25a7ef7c9cecbe12.js HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:43] "GET /_next/static/chunks/d2be314c3ece3fbe.js HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:43] "GET /favicon.ico?favicon.0b3bf435.ico HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] "GET /favicon.ico?favicon.0b3bf435.ico HTTP/1.1" 200 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] code 404, message File not found
+82.77.240.89 - - [20/Feb/2026 15:01:44] "HEAD /despre HTTP/1.1" 404 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] "HEAD /cos HTTP/1.1" 301 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] code 404, message File not found
+82.77.240.89 - - [20/Feb/2026 15:01:44] "HEAD /contact HTTP/1.1" 404 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] code 404, message File not found
+82.77.240.89 - - [20/Feb/2026 15:01:44] "GET /meta.json HTTP/1.1" 404 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] "HEAD /meniu/ HTTP/1.1" 200 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] "HEAD /cos/ HTTP/1.1" 200 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] "GET /__next._tree.txt?_rsc=1r34m HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] "GET /meniu/__next._tree.txt?_rsc=1r34m HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] "GET /cos/__next._tree.txt?_rsc=1r34m HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] "GET /__next._head.txt?_rsc=1pn8p HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] "GET /__next._index.txt?_rsc=nn07o HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] "GET /meniu/__next.meniu.txt?_rsc=hzyhp HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] "GET /meniu/__next._head.txt?_rsc=1pn8p HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] "GET /meniu/__next.meniu.__PAGE__.txt?_rsc=jxqoo HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] "GET /cos/__next._head.txt?_rsc=1pn8p HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] "GET /cos/__next.cos.txt?_rsc=dmfj8 HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] "GET /cos/__next.cos.__PAGE__.txt?_rsc=lahft HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] "GET /_next/static/chunks/0a64260aacb32f61.js HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] "GET /__next.__PAGE__.txt?_rsc=ivliq HTTP/1.1" 304 -
+82.77.240.89 - - [20/Feb/2026 15:01:44] "GET /_next/static/chunks/fd13d27c61c719eb.js HTTP/1.1" 304 -
+127.0.0.1 - - [20/Feb/2026 15:01:48] "GET / HTTP/1.1" 200 -

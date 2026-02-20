@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Napoli Centrale — Comandă Online</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="wrap nav">
+      <h1>🍕 Napoli Centrale</h1>
+      <a class="btn" href="#checkout">Checkout</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h2>Gust autentic italian, comandă rapidă</h2>
+      <p id="meta"></p>
+    </section>
+
+    <section>
+      <div id="cats" class="cats"></div>
+      <div id="grid" class="grid"></div>
+    </section>
+
+    <section id="checkout" class="checkout">
+      <h3>Coș & Checkout</h3>
+      <div id="cart"></div>
+      <form id="orderForm">
+        <input name="name" placeholder="Nume" required />
+        <input name="phone" placeholder="Telefon" required />
+        <input name="address" placeholder="Adresă" required />
+        <textarea name="notes" placeholder="Observații"></textarea>
+        <button class="btn" type="submit">Trimite comanda</button>
+      </form>
+      <p id="ok"></p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

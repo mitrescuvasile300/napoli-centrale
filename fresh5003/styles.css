@@ -1,0 +1,18 @@
+:root{--r:#8b0000;--g:#006400;--gold:#d4af37;--bg:#faf9f6}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui;background:var(--bg);color:#1d1d1d}
+.wrap{max-width:1100px;margin:0 auto;padding:16px}
+.top{background:linear-gradient(90deg,var(--g),#fff,var(--r));border-bottom:3px solid var(--gold)}
+.nav{display:flex;justify-content:space-between;align-items:center}
+.hero{background:#fff;border:1px solid #eee;border-radius:14px;padding:18px;margin:18px 0}
+.cats{display:flex;gap:8px;overflow:auto;padding:8px 0}
+.cats button{border:1px solid #ccc;background:#fff;padding:8px 12px;border-radius:999px;cursor:pointer}
+.cats button.active{background:var(--r);color:#fff;border-color:var(--gold)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.card{background:#fff;border:1px solid #eee;border-radius:14px;padding:14px;box-shadow:0 4px 14px rgba(0,0,0,.06)}
+.price{font-weight:700;color:var(--r)}
+.btn{background:var(--r);color:#fff;border:none;padding:10px 14px;border-radius:10px;cursor:pointer;text-decoration:none;display:inline-block}
+.checkout{margin:24px 0;background:#fff;border:1px solid #eee;border-radius:14px;padding:14px}
+#orderForm{display:grid;gap:8px;max-width:450px}
+input,textarea{padding:10px;border:1px solid #ccc;border-radius:8px}
+.cartrow{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed #ddd}
+.total{font-weight:700;margin-top:8px}
